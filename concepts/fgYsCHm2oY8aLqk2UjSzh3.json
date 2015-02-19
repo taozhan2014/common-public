@@ -1,0 +1,41 @@
+{
+  "uri" : "local://fgYsCHm2oY8aLqk2UjSzh3/",
+  "name" : "public",
+  "category" : "",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "username",
+    "expr" : {
+      "str" : "common",
+      "strEditMode" : ""
+    }
+  }, {
+    "name" : "view",
+    "expr" : {
+      "concept" : "/common/admin/3YSFpSIqDUA8eKOd7DrI4D/",
+      "bindings" : {
+        "username" : "username"
+      }
+    }
+  }, {
+    "name" : "_repo_holder",
+    "expr" : {
+      "str" : ""
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
+      "bindings" : {
+        "holder" : "_repo_holder"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "view"
+  }, {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}

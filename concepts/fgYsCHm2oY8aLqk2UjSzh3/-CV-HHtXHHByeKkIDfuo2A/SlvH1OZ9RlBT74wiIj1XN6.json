@@ -1,0 +1,56 @@
+{
+  "uri" : "local://SlvH1OZ9RlBT74wiIj1XN6/",
+  "name" : "common-univ-examples Mgt Concept",
+  "category" : "",
+  "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/common/univ-examples/"
+    }
+  }, {
+    "name" : "_repo_gitHubUsername",
+    "expr" : {
+      "str" : "conceptjs"
+    }
+  }, {
+    "name" : "_repo_gitHubRepo",
+    "expr" : {
+      "str" : "univ-examples"
+    }
+  }, {
+    "name" : "_repo_gitHubBranch",
+    "expr" : {
+      "str" : "master"
+    }
+  }, {
+    "name" : "_repo_lastSyncAction",
+    "expr" : {
+      "str" : "pull"
+    }
+  }, {
+    "name" : "_repo_lastSyncTime",
+    "expr" : {
+      "str" : "2015-02-18T21:30:23.710Z"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri",
+        "gitHubUsername" : "_repo_gitHubUsername",
+        "gitHubRepo" : "_repo_gitHubRepo",
+        "gitHubBranch" : "_repo_gitHubBranch",
+        "lastSyncAction" : "_repo_lastSyncAction",
+        "lastSyncTime" : "_repo_lastSyncTime"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}

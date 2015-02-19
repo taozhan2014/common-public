@@ -1,0 +1,44 @@
+{
+  "uri" : "local://4Uy5hiNmGsBBeq2c52-770/",
+  "name" : "IMG_0847.JPG",
+  "category" : "",
+  "parent" : "local://fgYsCHm2oY8aLqk2UjSzh3/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "type",
+    "expr" : {
+      "str" : "image/jpeg"
+    }
+  }, {
+    "name" : "attachmentLink",
+    "expr" : {
+      "str" : "db://common/aa525dc9-f384-4e72-91da-4988bdce306c/"
+    }
+  }, {
+    "name" : "filename",
+    "expr" : {
+      "str" : "IMG_0847.JPG"
+    }
+  }, {
+    "name" : "maxAge",
+    "expr" : {
+      "num" : -1
+    }
+  }, {
+    "name" : "resource",
+    "expr" : {
+      "concept" : "/common/core/BLTv0pGnFoAPG4Q4YV8KS1/",
+      "bindings" : {
+        "type" : "type",
+        "attachmentLink" : "attachmentLink",
+        "filename" : "filename",
+        "maxAge" : "maxAge"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "resource"
+  } ],
+  "isLambda" : false
+}
