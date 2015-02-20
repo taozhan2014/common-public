@@ -1,0 +1,26 @@
+{
+  "uri" : "local://0TYr8JNM9H8HPaSWRkP00C/",
+  "name" : "common-gallery Mgt Concept",
+  "category" : "",
+  "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_repoUri",
+    "expr" : {
+      "str" : "/common/gallery/"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/NR8d-ezEsVB0v465tpkyi3/",
+      "bindings" : {
+        "repoUri" : "_repo_repoUri"
+      }
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ],
+  "isLambda" : false
+}
