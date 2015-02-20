@@ -1,6 +1,6 @@
 {
-  "uri" : "local://VyRGwNFJs_BGmKRUVnyuyE/",
-  "name" : "common-public Mgt Concept",
+  "uri" : "local://3cDqzE9nhc8kRqhNZc9Z18/",
+  "name" : "common-default Mgt Concept",
   "category" : "",
   "parent" : "local://-CV-HHtXHHByeKkIDfuo2A/",
   "flags" : "U",
@@ -8,12 +8,12 @@
   "vars" : [ {
     "name" : "_repo_repoUri",
     "expr" : {
-      "str" : "/common/public/"
+      "str" : "/common/default/"
     }
   }, {
     "name" : "_repo_gitHubRepo",
     "expr" : {
-      "str" : "common-public"
+      "str" : "common-default"
     }
   }, {
     "name" : "_repo_gitHubBranch",
@@ -26,11 +26,6 @@
       "str" : "taozhan2014"
     }
   }, {
-    "name" : "_repo_imageUrl",
-    "expr" : {
-      "str" : "/resourcelocal://MnGf6Gwiw08Zz4uowAc2RA/"
-    }
-  }, {
     "name" : "_repo_lastSyncAction",
     "expr" : {
       "str" : "push"
@@ -38,7 +33,7 @@
   }, {
     "name" : "_repo_lastSyncTime",
     "expr" : {
-      "str" : "2015-02-19T23:15:43.524Z"
+      "str" : "2015-02-19T23:26:57.736Z"
     }
   }, {
     "name" : "repo",
@@ -49,7 +44,6 @@
         "gitHubRepo" : "_repo_gitHubRepo",
         "gitHubBranch" : "_repo_gitHubBranch",
         "gitHubUsername" : "_repo_gitHubUsername",
-        "imageUrl" : "_repo_imageUrl",
         "lastSyncAction" : "_repo_lastSyncAction",
         "lastSyncTime" : "_repo_lastSyncTime"
       }
